@@ -21,6 +21,8 @@
 		DED8D98318A8F23A00C347B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED8D96518A8F23A00C347B0 /* UIKit.framework */; };
 		DED8D98B18A8F23A00C347B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DED8D98918A8F23A00C347B0 /* InfoPlist.strings */; };
 		DED8D98D18A8F23A00C347B0 /* CardViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8D98C18A8F23A00C347B0 /* CardViewSampleTests.m */; };
+		DED8D99A18A8F24600C347B0 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8D99718A8F24600C347B0 /* CardViewController.m */; };
+		DED8D99B18A8F24600C347B0 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = DED8D99918A8F24600C347B0 /* CardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		DED8D98818A8F23A00C347B0 /* CardViewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardViewSampleTests-Info.plist"; sourceTree = "<group>"; };
 		DED8D98A18A8F23A00C347B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DED8D98C18A8F23A00C347B0 /* CardViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardViewSampleTests.m; sourceTree = "<group>"; };
+		DED8D99618A8F24600C347B0 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		DED8D99718A8F24600C347B0 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		DED8D99818A8F24600C347B0 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		DED8D99918A8F24600C347B0 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				DED8D97318A8F23A00C347B0 /* Main.storyboard */,
 				DED8D97618A8F23A00C347B0 /* ViewController.h */,
 				DED8D97718A8F23A00C347B0 /* ViewController.m */,
+				DED8D99618A8F24600C347B0 /* CardViewController.h */,
+				DED8D99718A8F24600C347B0 /* CardViewController.m */,
+				DED8D99818A8F24600C347B0 /* CardView.h */,
+				DED8D99918A8F24600C347B0 /* CardView.m */,
 				DED8D97918A8F23A00C347B0 /* Images.xcassets */,
 				DED8D96818A8F23A00C347B0 /* Supporting Files */,
 			);
@@ -249,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED8D99A18A8F24600C347B0 /* CardViewController.m in Sources */,
 				DED8D97818A8F23A00C347B0 /* ViewController.m in Sources */,
+				DED8D99B18A8F24600C347B0 /* CardView.m in Sources */,
 				DED8D97218A8F23A00C347B0 /* AppDelegate.m in Sources */,
 				DED8D96E18A8F23A00C347B0 /* main.m in Sources */,
 			);
