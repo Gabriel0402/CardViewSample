@@ -140,6 +140,7 @@
 
 -(void)performPanEndActivitiesWithVelocity:(CGPoint)velocityPoint
 {
+    
     CGFloat velocity = velocityPoint.x;
     CGFloat constraintX = self.view.frame.size.width/2;
     CGRect fromFrame = activeCard.frame;
